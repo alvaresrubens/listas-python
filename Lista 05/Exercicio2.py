@@ -5,7 +5,6 @@ if len(capital) != 8:
     print ("Resposta incorreta.")
 
 else:
-
     capital = capital.lower()   
     capital = capital.replace("á","a")
     capital = capital.replace("â","a")
