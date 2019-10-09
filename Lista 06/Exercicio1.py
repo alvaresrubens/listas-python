@@ -2,6 +2,7 @@ texto = input("Digite um texto ")
 busca = input("Digite outro texto ")
 
 if busca in texto:
+
     print ("hello world")
     print("O texto: ", busca, "ocorre ",texto.count(busca), "no texto:  ", texto)
     indice = 0

@@ -1,6 +1,7 @@
 texto = input("Digite um texto ")
 busca = input("Digite outro texto ")
 intersecao = ""
+
 for letra in busca:
     if letra in texto:
         intersecao = intersecao + letra

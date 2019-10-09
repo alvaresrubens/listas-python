@@ -1,6 +1,7 @@
 texto = input("Digite um texto ")
 busca = input("Digite outro texto ")
 disjuncao = ""
+
 for letra in busca:
     if letra not in texto:
         disjuncao = disjuncao + letra
